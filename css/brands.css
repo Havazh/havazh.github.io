@@ -1,0 +1,91 @@
+*, body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+.breadcrumbs ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0;
+  padding-top: 21px;
+  padding-left: 24px;
+  list-style: none;
+}
+
+.breadcrumbs ol li a {
+  font-size: 14px;
+  font-weight: normal;
+  color: #888888;
+  text-decoration: none;
+}
+
+.brands {
+  width: 1200px;
+  height: 730px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: normal;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.brands-title {
+  margin-bottom: 47px;
+  padding-left: 24px;
+  font-size: 32px;
+  font-weight: normal;
+  color: #2f3140;
+}
+
+.brands-container {
+  width: 956px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.brands-item {
+  margin-bottom: 30px;
+}
+
+.brands-item-title {
+  text-align: center;
+}
+
+.brands-item-link {
+  font-size: 14px;
+  font-weight: normal;
+  color: #000000;
+  text-decoration: none;
+}
+
+.box-border {
+  width: 172px;
+  height: 140px;
+  margin-bottom: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #c4c4c4;
+}
