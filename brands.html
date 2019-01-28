@@ -1,307 +1,1264 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
+    <title>Бренды</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Все бренды</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-    <link rel="stylesheet" href="css/brands.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/favicon.ico" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="/favicon.ico" />
 </head>
+
 <body>
 
 
-    <section class="brands">
-        
-        <div class="breadcrumbs">
-            <ol>
-                <li><a href="#">Главная&nbsp;</a></li>
-                <li><a href="#">/&nbsp;Все бренды</a></li>
-            </ol>
+    <div class="wrapper">
+
+        <div class="header">
+            <div class="h_top_mob">
+                <div class="h_top_mob_btn"><span></span><span></span><span></span></div>
+                <a href="/" class="h_top_logo">Рим маркет</a>
+            </div>
+            <div class="h_top">
+                <div class="h_top_left">
+                    <ul>
+                        <li><a href="#">римстрой</a></li>
+                        <li><a href="#">теплостройпроект-с</a></li>
+                    </ul>
+                </div>
+                <div class="h_top_right">
+                    <ul class="h_top_orange">
+                        <li><a href="#"><i><img src="img/ico_company.png" alt="" /></i>о компании</a></li>
+                        <li><a href="#"><i><img src="img/ico_magazine.png" alt="" /></i>магазины</a></li>
+                    </ul>
+                    <ul class="h_top_menu">
+                        <li><a href="#">оплата</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Личный кабинет</a></li>
+                    </ul>
+                </div>
+                <div class="h_mob_cat">
+                    <ul>
+                        <li><a href="#">Общестроительное направление</a></li>
+                        <li><a href="#">Инженерное направление</a></li>
+                        <li><a href="#">Системы управления "Умный дом"</a></li>
+                        <li><a href="#">Внутреннее наполнение</a></li>
+                        <li><a href="#">Монтаж и сервис</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="h_center">
+                <div class="h_logo">
+                    <a href="/">
+                        <img src="img/logo.png" alt="" />
+                        <div class="logo_desc">
+                            <span class="logo_desc_orange">Интернет-магазин</span>
+                            <span class="logo_desc_text">Стройка - Ремонт - Интерьер</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="h_search">
+                    <form>
+                        <input type="text" name="search" placeholder="Поиск" />
+                        <button type="submit"></button>
+                    </form>
+                </div>
+                <div class="h_phone"><a href="tel:88003339383">8 800 333-93-83</a></div>
+                <a href="#" class="h_cart">
+                    <span class="h_cart_text">Корзина</span>
+                    <span class="h_cart_count">0</span>
+                </a>
+            </div>
+            <div class="h_menu">
+                <ul>
+                    <li><a href="#">Общестроительное направление</a></li>
+                    <li><a href="#">Инженерное направление</a></li>
+                    <li><a href="#">Системы управления "Умный дом"</a></li>
+                    <li><a href="#">Внутреннее наполнение</a></li>
+                    <li><a href="#">Монтаж и сервис</a></li>
+                </ul>
+            </div>
         </div>
 
-
-        <h2 class="brands-title">
-            Все бренды
-        </h2>
+        <div class="mob_btn_catalog">Каталог товаров<i></i></div>
 
 
-        <div class="brands-container">
 
-            <div class="brands-item">
-                
-                <div class="box-border">
-                    <a href="#">
-                        <img src="img/techonikol.png" alt="ТЕХНОНИКОЛЬ">
-                    </a>
+
+
+        <div class="main">
+            <div class="top_block">
+                <div class="main_left_menu">
+                    <ul>
+                        <li>
+                            <a href="#">Строительные материалы</a>
+                            <div class="main_left_menu_dropdown">
+                                <div class="main_left_menu_dropdown_title">Строительные материалы</div>
+                                <div class="main_left_menu_dropdown_list">
+                                    <ul>
+                                        <li><a href="#">Сухие строительные смеси</a></li>
+                                        <li><a href="#">Выравнивающие смеси для пола</a></li>
+                                        <li><a href="#">Гипс</a></li>
+                                        <li><a href="#">Затирки</a></li>
+                                        <li><a href="#">Кладочные смеси</a></li>
+                                        <li><a href="#">Клеи для гипсокартона</a></li>
+                                        <li><a href="#">Клеи для плитки</a></li>
+                                        <li><a href="#">Клеи для утеплителя</a></li>
+                                        <li><a href="#">Цемент, мел, известь</a></li>
+                                        <li><a href="#">Шпаклевки</a></li>
+                                        <li><a href="#">Штукатурки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Теплоизоляция</a></li>
+                                        <li><a href="#">Дюбеля для теплоизоляции</a></li>
+                                        <li><a href="#">Минеральная вата</a></li>
+                                        <li><a href="#">Монтажные элементы для теплоизоляции</a></li>
+                                        <li><a href="#">Напыляемая теплоизоляция</a></li>
+                                        <li><a href="#">Пенополистирол</a></li>
+                                        <li><a href="#">Полиэтилен вспененный</a></li>
+                                        <li><a href="#">Стекловата</a></li>
+                                        <li><a href="#">Техническая изоляция и огнезащита</a></li>
+                                        <li><a href="#">Утеплитель для деревянного домостроения</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Герметики, грунтовки, готовые клеи</a></li>
+                                        <li><a href="#">Герметики</a></li>
+                                        <li><a href="#">Грунтовки</a></li>
+                                        <li><a href="#">Клеи монтажные</a></li>
+                                        <li><a href="#">Клеи секундные и контактные</a></li>
+                                        <li><a href="#">Монтажные пены</a></li>
+                                        <li><a href="#">Пластификаторы</a></li>
+                                        <li><a href="#">Шпаклевки готовые</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Гипсокартон и профили</a></li>
+                                        <li><a href="#">Армирующие сетки и ленты</a></li>
+                                        <li><a href="#">Гипсокартон</a></li>
+                                        <li><a href="#">Профили</a></li>
+                                        <li><a href="#">Соединительные элементы и уплотнители</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Кирпич и строительные блоки</a></li>
+                                        <li><a href="#">Кирпич керамический</a></li>
+                                        <li><a href="#">Кирпич огнеупорный</a></li>
+                                        <li><a href="#">Кирпич силикатный</a></li>
+                                        <li><a href="#">Строительные блоки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Изоляционные материалы</a></li>
+                                        <li><a href="#">Гидроизоляция</a></li>
+                                        <li><a href="#">Кровельные и фасадные пленки</a></li>
+                                        <li><a href="#">Полиэтиленовые пленки</a></li>
+                                        <li><a href="#">Шумоизоляция</a></li>
+                                    </ul>
+                                </div>
+                                <div class="main_left_menu_dropdown_img"><img src="img/menu_img.jpg" alt="" /></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">отделочные материалы</a>
+                            <div class="main_left_menu_dropdown">
+                                <div class="main_left_menu_dropdown_title">Отделочные материалы</div>
+                                <div class="main_left_menu_dropdown_list">
+                                    <ul>
+                                        <li><a href="#">Сухие строительные смеси</a></li>
+                                        <li><a href="#">Выравнивающие смеси для пола</a></li>
+                                        <li><a href="#">Гипс</a></li>
+                                        <li><a href="#">Затирки</a></li>
+                                        <li><a href="#">Кладочные смеси</a></li>
+                                        <li><a href="#">Клеи для гипсокартона</a></li>
+                                        <li><a href="#">Клеи для плитки</a></li>
+                                        <li><a href="#">Клеи для утеплителя</a></li>
+                                        <li><a href="#">Цемент, мел, известь</a></li>
+                                        <li><a href="#">Шпаклевки</a></li>
+                                        <li><a href="#">Штукатурки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Теплоизоляция</a></li>
+                                        <li><a href="#">Дюбеля для теплоизоляции</a></li>
+                                        <li><a href="#">Минеральная вата</a></li>
+                                        <li><a href="#">Монтажные элементы для теплоизоляции</a></li>
+                                        <li><a href="#">Напыляемая теплоизоляция</a></li>
+                                        <li><a href="#">Пенополистирол</a></li>
+                                        <li><a href="#">Полиэтилен вспененный</a></li>
+                                        <li><a href="#">Стекловата</a></li>
+                                        <li><a href="#">Техническая изоляция и огнезащита</a></li>
+                                        <li><a href="#">Утеплитель для деревянного домостроения</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Герметики, грунтовки, готовые клеи</a></li>
+                                        <li><a href="#">Герметики</a></li>
+                                        <li><a href="#">Грунтовки</a></li>
+                                        <li><a href="#">Клеи монтажные</a></li>
+                                        <li><a href="#">Клеи секундные и контактные</a></li>
+                                        <li><a href="#">Монтажные пены</a></li>
+                                        <li><a href="#">Пластификаторы</a></li>
+                                        <li><a href="#">Шпаклевки готовые</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Гипсокартон и профили</a></li>
+                                        <li><a href="#">Армирующие сетки и ленты</a></li>
+                                        <li><a href="#">Гипсокартон</a></li>
+                                        <li><a href="#">Профили</a></li>
+                                        <li><a href="#">Соединительные элементы и уплотнители</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Кирпич и строительные блоки</a></li>
+                                        <li><a href="#">Кирпич керамический</a></li>
+                                        <li><a href="#">Кирпич огнеупорный</a></li>
+                                        <li><a href="#">Кирпич силикатный</a></li>
+                                        <li><a href="#">Строительные блоки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Изоляционные материалы</a></li>
+                                        <li><a href="#">Гидроизоляция</a></li>
+                                        <li><a href="#">Кровельные и фасадные пленки</a></li>
+                                        <li><a href="#">Полиэтиленовые пленки</a></li>
+                                        <li><a href="#">Шумоизоляция</a></li>
+                                    </ul>
+                                </div>
+                                <div class="main_left_menu_dropdown_img"><img src="img/menu_img.jpg" alt="" /></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Инструмент</a>
+                            <div class="main_left_menu_dropdown">
+                                <div class="main_left_menu_dropdown_title">Инструмент</div>
+                                <div class="main_left_menu_dropdown_list">
+                                    <ul>
+                                        <li><a href="#">Сухие строительные смеси</a></li>
+                                        <li><a href="#">Выравнивающие смеси для пола</a></li>
+                                        <li><a href="#">Гипс</a></li>
+                                        <li><a href="#">Затирки</a></li>
+                                        <li><a href="#">Кладочные смеси</a></li>
+                                        <li><a href="#">Клеи для гипсокартона</a></li>
+                                        <li><a href="#">Клеи для плитки</a></li>
+                                        <li><a href="#">Клеи для утеплителя</a></li>
+                                        <li><a href="#">Цемент, мел, известь</a></li>
+                                        <li><a href="#">Шпаклевки</a></li>
+                                        <li><a href="#">Штукатурки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Теплоизоляция</a></li>
+                                        <li><a href="#">Дюбеля для теплоизоляции</a></li>
+                                        <li><a href="#">Минеральная вата</a></li>
+                                        <li><a href="#">Монтажные элементы для теплоизоляции</a></li>
+                                        <li><a href="#">Напыляемая теплоизоляция</a></li>
+                                        <li><a href="#">Пенополистирол</a></li>
+                                        <li><a href="#">Полиэтилен вспененный</a></li>
+                                        <li><a href="#">Стекловата</a></li>
+                                        <li><a href="#">Техническая изоляция и огнезащита</a></li>
+                                        <li><a href="#">Утеплитель для деревянного домостроения</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Герметики, грунтовки, готовые клеи</a></li>
+                                        <li><a href="#">Герметики</a></li>
+                                        <li><a href="#">Грунтовки</a></li>
+                                        <li><a href="#">Клеи монтажные</a></li>
+                                        <li><a href="#">Клеи секундные и контактные</a></li>
+                                        <li><a href="#">Монтажные пены</a></li>
+                                        <li><a href="#">Пластификаторы</a></li>
+                                        <li><a href="#">Шпаклевки готовые</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Гипсокартон и профили</a></li>
+                                        <li><a href="#">Армирующие сетки и ленты</a></li>
+                                        <li><a href="#">Гипсокартон</a></li>
+                                        <li><a href="#">Профили</a></li>
+                                        <li><a href="#">Соединительные элементы и уплотнители</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Кирпич и строительные блоки</a></li>
+                                        <li><a href="#">Кирпич керамический</a></li>
+                                        <li><a href="#">Кирпич огнеупорный</a></li>
+                                        <li><a href="#">Кирпич силикатный</a></li>
+                                        <li><a href="#">Строительные блоки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Изоляционные материалы</a></li>
+                                        <li><a href="#">Гидроизоляция</a></li>
+                                        <li><a href="#">Кровельные и фасадные пленки</a></li>
+                                        <li><a href="#">Полиэтиленовые пленки</a></li>
+                                        <li><a href="#">Шумоизоляция</a></li>
+                                    </ul>
+                                </div>
+                                <div class="main_left_menu_dropdown_img"><img src="img/menu_img.jpg" alt="" /></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Спецодежда</a>
+                            <div class="main_left_menu_dropdown">
+                                <div class="main_left_menu_dropdown_title">Спецодежда</div>
+                                <div class="main_left_menu_dropdown_list">
+                                    <ul>
+                                        <li><a href="#">Сухие строительные смеси</a></li>
+                                        <li><a href="#">Выравнивающие смеси для пола</a></li>
+                                        <li><a href="#">Гипс</a></li>
+                                        <li><a href="#">Затирки</a></li>
+                                        <li><a href="#">Кладочные смеси</a></li>
+                                        <li><a href="#">Клеи для гипсокартона</a></li>
+                                        <li><a href="#">Клеи для плитки</a></li>
+                                        <li><a href="#">Клеи для утеплителя</a></li>
+                                        <li><a href="#">Цемент, мел, известь</a></li>
+                                        <li><a href="#">Шпаклевки</a></li>
+                                        <li><a href="#">Штукатурки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Теплоизоляция</a></li>
+                                        <li><a href="#">Дюбеля для теплоизоляции</a></li>
+                                        <li><a href="#">Минеральная вата</a></li>
+                                        <li><a href="#">Монтажные элементы для теплоизоляции</a></li>
+                                        <li><a href="#">Напыляемая теплоизоляция</a></li>
+                                        <li><a href="#">Пенополистирол</a></li>
+                                        <li><a href="#">Полиэтилен вспененный</a></li>
+                                        <li><a href="#">Стекловата</a></li>
+                                        <li><a href="#">Техническая изоляция и огнезащита</a></li>
+                                        <li><a href="#">Утеплитель для деревянного домостроения</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Герметики, грунтовки, готовые клеи</a></li>
+                                        <li><a href="#">Герметики</a></li>
+                                        <li><a href="#">Грунтовки</a></li>
+                                        <li><a href="#">Клеи монтажные</a></li>
+                                        <li><a href="#">Клеи секундные и контактные</a></li>
+                                        <li><a href="#">Монтажные пены</a></li>
+                                        <li><a href="#">Пластификаторы</a></li>
+                                        <li><a href="#">Шпаклевки готовые</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Гипсокартон и профили</a></li>
+                                        <li><a href="#">Армирующие сетки и ленты</a></li>
+                                        <li><a href="#">Гипсокартон</a></li>
+                                        <li><a href="#">Профили</a></li>
+                                        <li><a href="#">Соединительные элементы и уплотнители</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Кирпич и строительные блоки</a></li>
+                                        <li><a href="#">Кирпич керамический</a></li>
+                                        <li><a href="#">Кирпич огнеупорный</a></li>
+                                        <li><a href="#">Кирпич силикатный</a></li>
+                                        <li><a href="#">Строительные блоки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Изоляционные материалы</a></li>
+                                        <li><a href="#">Гидроизоляция</a></li>
+                                        <li><a href="#">Кровельные и фасадные пленки</a></li>
+                                        <li><a href="#">Полиэтиленовые пленки</a></li>
+                                        <li><a href="#">Шумоизоляция</a></li>
+                                    </ul>
+                                </div>
+                                <div class="main_left_menu_dropdown_img"><img src="img/menu_img.jpg" alt="" /></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Сантехника</a>
+                            <div class="main_left_menu_dropdown">
+                                <div class="main_left_menu_dropdown_title">Сантехника</div>
+                                <div class="main_left_menu_dropdown_list">
+                                    <ul>
+                                        <li><a href="#">Сухие строительные смеси</a></li>
+                                        <li><a href="#">Выравнивающие смеси для пола</a></li>
+                                        <li><a href="#">Гипс</a></li>
+                                        <li><a href="#">Затирки</a></li>
+                                        <li><a href="#">Кладочные смеси</a></li>
+                                        <li><a href="#">Клеи для гипсокартона</a></li>
+                                        <li><a href="#">Клеи для плитки</a></li>
+                                        <li><a href="#">Клеи для утеплителя</a></li>
+                                        <li><a href="#">Цемент, мел, известь</a></li>
+                                        <li><a href="#">Шпаклевки</a></li>
+                                        <li><a href="#">Штукатурки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Теплоизоляция</a></li>
+                                        <li><a href="#">Дюбеля для теплоизоляции</a></li>
+                                        <li><a href="#">Минеральная вата</a></li>
+                                        <li><a href="#">Монтажные элементы для теплоизоляции</a></li>
+                                        <li><a href="#">Напыляемая теплоизоляция</a></li>
+                                        <li><a href="#">Пенополистирол</a></li>
+                                        <li><a href="#">Полиэтилен вспененный</a></li>
+                                        <li><a href="#">Стекловата</a></li>
+                                        <li><a href="#">Техническая изоляция и огнезащита</a></li>
+                                        <li><a href="#">Утеплитель для деревянного домостроения</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Герметики, грунтовки, готовые клеи</a></li>
+                                        <li><a href="#">Герметики</a></li>
+                                        <li><a href="#">Грунтовки</a></li>
+                                        <li><a href="#">Клеи монтажные</a></li>
+                                        <li><a href="#">Клеи секундные и контактные</a></li>
+                                        <li><a href="#">Монтажные пены</a></li>
+                                        <li><a href="#">Пластификаторы</a></li>
+                                        <li><a href="#">Шпаклевки готовые</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Гипсокартон и профили</a></li>
+                                        <li><a href="#">Армирующие сетки и ленты</a></li>
+                                        <li><a href="#">Гипсокартон</a></li>
+                                        <li><a href="#">Профили</a></li>
+                                        <li><a href="#">Соединительные элементы и уплотнители</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Кирпич и строительные блоки</a></li>
+                                        <li><a href="#">Кирпич керамический</a></li>
+                                        <li><a href="#">Кирпич огнеупорный</a></li>
+                                        <li><a href="#">Кирпич силикатный</a></li>
+                                        <li><a href="#">Строительные блоки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Изоляционные материалы</a></li>
+                                        <li><a href="#">Гидроизоляция</a></li>
+                                        <li><a href="#">Кровельные и фасадные пленки</a></li>
+                                        <li><a href="#">Полиэтиленовые пленки</a></li>
+                                        <li><a href="#">Шумоизоляция</a></li>
+                                    </ul>
+                                </div>
+                                <div class="main_left_menu_dropdown_img"><img src="img/menu_img.jpg" alt="" /></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Электрика и освещение</a>
+                            <div class="main_left_menu_dropdown">
+                                <div class="main_left_menu_dropdown_title">Электрика и освещение</div>
+                                <div class="main_left_menu_dropdown_list">
+                                    <ul>
+                                        <li><a href="#">Сухие строительные смеси</a></li>
+                                        <li><a href="#">Выравнивающие смеси для пола</a></li>
+                                        <li><a href="#">Гипс</a></li>
+                                        <li><a href="#">Затирки</a></li>
+                                        <li><a href="#">Кладочные смеси</a></li>
+                                        <li><a href="#">Клеи для гипсокартона</a></li>
+                                        <li><a href="#">Клеи для плитки</a></li>
+                                        <li><a href="#">Клеи для утеплителя</a></li>
+                                        <li><a href="#">Цемент, мел, известь</a></li>
+                                        <li><a href="#">Шпаклевки</a></li>
+                                        <li><a href="#">Штукатурки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Теплоизоляция</a></li>
+                                        <li><a href="#">Дюбеля для теплоизоляции</a></li>
+                                        <li><a href="#">Минеральная вата</a></li>
+                                        <li><a href="#">Монтажные элементы для теплоизоляции</a></li>
+                                        <li><a href="#">Напыляемая теплоизоляция</a></li>
+                                        <li><a href="#">Пенополистирол</a></li>
+                                        <li><a href="#">Полиэтилен вспененный</a></li>
+                                        <li><a href="#">Стекловата</a></li>
+                                        <li><a href="#">Техническая изоляция и огнезащита</a></li>
+                                        <li><a href="#">Утеплитель для деревянного домостроения</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Герметики, грунтовки, готовые клеи</a></li>
+                                        <li><a href="#">Герметики</a></li>
+                                        <li><a href="#">Грунтовки</a></li>
+                                        <li><a href="#">Клеи монтажные</a></li>
+                                        <li><a href="#">Клеи секундные и контактные</a></li>
+                                        <li><a href="#">Монтажные пены</a></li>
+                                        <li><a href="#">Пластификаторы</a></li>
+                                        <li><a href="#">Шпаклевки готовые</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Гипсокартон и профили</a></li>
+                                        <li><a href="#">Армирующие сетки и ленты</a></li>
+                                        <li><a href="#">Гипсокартон</a></li>
+                                        <li><a href="#">Профили</a></li>
+                                        <li><a href="#">Соединительные элементы и уплотнители</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Кирпич и строительные блоки</a></li>
+                                        <li><a href="#">Кирпич керамический</a></li>
+                                        <li><a href="#">Кирпич огнеупорный</a></li>
+                                        <li><a href="#">Кирпич силикатный</a></li>
+                                        <li><a href="#">Строительные блоки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Изоляционные материалы</a></li>
+                                        <li><a href="#">Гидроизоляция</a></li>
+                                        <li><a href="#">Кровельные и фасадные пленки</a></li>
+                                        <li><a href="#">Полиэтиленовые пленки</a></li>
+                                        <li><a href="#">Шумоизоляция</a></li>
+                                    </ul>
+                                </div>
+                                <div class="main_left_menu_dropdown_img"><img src="img/menu_img.jpg" alt="" /></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Отопление</a>
+                            <div class="main_left_menu_dropdown">
+                                <div class="main_left_menu_dropdown_title">Отопление</div>
+                                <div class="main_left_menu_dropdown_list">
+                                    <ul>
+                                        <li><a href="#">Сухие строительные смеси</a></li>
+                                        <li><a href="#">Выравнивающие смеси для пола</a></li>
+                                        <li><a href="#">Гипс</a></li>
+                                        <li><a href="#">Затирки</a></li>
+                                        <li><a href="#">Кладочные смеси</a></li>
+                                        <li><a href="#">Клеи для гипсокартона</a></li>
+                                        <li><a href="#">Клеи для плитки</a></li>
+                                        <li><a href="#">Клеи для утеплителя</a></li>
+                                        <li><a href="#">Цемент, мел, известь</a></li>
+                                        <li><a href="#">Шпаклевки</a></li>
+                                        <li><a href="#">Штукатурки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Теплоизоляция</a></li>
+                                        <li><a href="#">Дюбеля для теплоизоляции</a></li>
+                                        <li><a href="#">Минеральная вата</a></li>
+                                        <li><a href="#">Монтажные элементы для теплоизоляции</a></li>
+                                        <li><a href="#">Напыляемая теплоизоляция</a></li>
+                                        <li><a href="#">Пенополистирол</a></li>
+                                        <li><a href="#">Полиэтилен вспененный</a></li>
+                                        <li><a href="#">Стекловата</a></li>
+                                        <li><a href="#">Техническая изоляция и огнезащита</a></li>
+                                        <li><a href="#">Утеплитель для деревянного домостроения</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Герметики, грунтовки, готовые клеи</a></li>
+                                        <li><a href="#">Герметики</a></li>
+                                        <li><a href="#">Грунтовки</a></li>
+                                        <li><a href="#">Клеи монтажные</a></li>
+                                        <li><a href="#">Клеи секундные и контактные</a></li>
+                                        <li><a href="#">Монтажные пены</a></li>
+                                        <li><a href="#">Пластификаторы</a></li>
+                                        <li><a href="#">Шпаклевки готовые</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Гипсокартон и профили</a></li>
+                                        <li><a href="#">Армирующие сетки и ленты</a></li>
+                                        <li><a href="#">Гипсокартон</a></li>
+                                        <li><a href="#">Профили</a></li>
+                                        <li><a href="#">Соединительные элементы и уплотнители</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Кирпич и строительные блоки</a></li>
+                                        <li><a href="#">Кирпич керамический</a></li>
+                                        <li><a href="#">Кирпич огнеупорный</a></li>
+                                        <li><a href="#">Кирпич силикатный</a></li>
+                                        <li><a href="#">Строительные блоки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Изоляционные материалы</a></li>
+                                        <li><a href="#">Гидроизоляция</a></li>
+                                        <li><a href="#">Кровельные и фасадные пленки</a></li>
+                                        <li><a href="#">Полиэтиленовые пленки</a></li>
+                                        <li><a href="#">Шумоизоляция</a></li>
+                                    </ul>
+                                </div>
+                                <div class="main_left_menu_dropdown_img"><img src="img/menu_img.jpg" alt="" /></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">водоснабжение</a>
+                            <div class="main_left_menu_dropdown">
+                                <div class="main_left_menu_dropdown_title">Водоснабжение</div>
+                                <div class="main_left_menu_dropdown_list">
+                                    <ul>
+                                        <li><a href="#">Сухие строительные смеси</a></li>
+                                        <li><a href="#">Выравнивающие смеси для пола</a></li>
+                                        <li><a href="#">Гипс</a></li>
+                                        <li><a href="#">Затирки</a></li>
+                                        <li><a href="#">Кладочные смеси</a></li>
+                                        <li><a href="#">Клеи для гипсокартона</a></li>
+                                        <li><a href="#">Клеи для плитки</a></li>
+                                        <li><a href="#">Клеи для утеплителя</a></li>
+                                        <li><a href="#">Цемент, мел, известь</a></li>
+                                        <li><a href="#">Шпаклевки</a></li>
+                                        <li><a href="#">Штукатурки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Теплоизоляция</a></li>
+                                        <li><a href="#">Дюбеля для теплоизоляции</a></li>
+                                        <li><a href="#">Минеральная вата</a></li>
+                                        <li><a href="#">Монтажные элементы для теплоизоляции</a></li>
+                                        <li><a href="#">Напыляемая теплоизоляция</a></li>
+                                        <li><a href="#">Пенополистирол</a></li>
+                                        <li><a href="#">Полиэтилен вспененный</a></li>
+                                        <li><a href="#">Стекловата</a></li>
+                                        <li><a href="#">Техническая изоляция и огнезащита</a></li>
+                                        <li><a href="#">Утеплитель для деревянного домостроения</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Герметики, грунтовки, готовые клеи</a></li>
+                                        <li><a href="#">Герметики</a></li>
+                                        <li><a href="#">Грунтовки</a></li>
+                                        <li><a href="#">Клеи монтажные</a></li>
+                                        <li><a href="#">Клеи секундные и контактные</a></li>
+                                        <li><a href="#">Монтажные пены</a></li>
+                                        <li><a href="#">Пластификаторы</a></li>
+                                        <li><a href="#">Шпаклевки готовые</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Гипсокартон и профили</a></li>
+                                        <li><a href="#">Армирующие сетки и ленты</a></li>
+                                        <li><a href="#">Гипсокартон</a></li>
+                                        <li><a href="#">Профили</a></li>
+                                        <li><a href="#">Соединительные элементы и уплотнители</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Кирпич и строительные блоки</a></li>
+                                        <li><a href="#">Кирпич керамический</a></li>
+                                        <li><a href="#">Кирпич огнеупорный</a></li>
+                                        <li><a href="#">Кирпич силикатный</a></li>
+                                        <li><a href="#">Строительные блоки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Изоляционные материалы</a></li>
+                                        <li><a href="#">Гидроизоляция</a></li>
+                                        <li><a href="#">Кровельные и фасадные пленки</a></li>
+                                        <li><a href="#">Полиэтиленовые пленки</a></li>
+                                        <li><a href="#">Шумоизоляция</a></li>
+                                    </ul>
+                                </div>
+                                <div class="main_left_menu_dropdown_img"><img src="img/menu_img.jpg" alt="" /></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Кондиционирование</a>
+                            <div class="main_left_menu_dropdown">
+                                <div class="main_left_menu_dropdown_title">Кондиционирование</div>
+                                <div class="main_left_menu_dropdown_list">
+                                    <ul>
+                                        <li><a href="#">Сухие строительные смеси</a></li>
+                                        <li><a href="#">Выравнивающие смеси для пола</a></li>
+                                        <li><a href="#">Гипс</a></li>
+                                        <li><a href="#">Затирки</a></li>
+                                        <li><a href="#">Кладочные смеси</a></li>
+                                        <li><a href="#">Клеи для гипсокартона</a></li>
+                                        <li><a href="#">Клеи для плитки</a></li>
+                                        <li><a href="#">Клеи для утеплителя</a></li>
+                                        <li><a href="#">Цемент, мел, известь</a></li>
+                                        <li><a href="#">Шпаклевки</a></li>
+                                        <li><a href="#">Штукатурки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Теплоизоляция</a></li>
+                                        <li><a href="#">Дюбеля для теплоизоляции</a></li>
+                                        <li><a href="#">Минеральная вата</a></li>
+                                        <li><a href="#">Монтажные элементы для теплоизоляции</a></li>
+                                        <li><a href="#">Напыляемая теплоизоляция</a></li>
+                                        <li><a href="#">Пенополистирол</a></li>
+                                        <li><a href="#">Полиэтилен вспененный</a></li>
+                                        <li><a href="#">Стекловата</a></li>
+                                        <li><a href="#">Техническая изоляция и огнезащита</a></li>
+                                        <li><a href="#">Утеплитель для деревянного домостроения</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Герметики, грунтовки, готовые клеи</a></li>
+                                        <li><a href="#">Герметики</a></li>
+                                        <li><a href="#">Грунтовки</a></li>
+                                        <li><a href="#">Клеи монтажные</a></li>
+                                        <li><a href="#">Клеи секундные и контактные</a></li>
+                                        <li><a href="#">Монтажные пены</a></li>
+                                        <li><a href="#">Пластификаторы</a></li>
+                                        <li><a href="#">Шпаклевки готовые</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Гипсокартон и профили</a></li>
+                                        <li><a href="#">Армирующие сетки и ленты</a></li>
+                                        <li><a href="#">Гипсокартон</a></li>
+                                        <li><a href="#">Профили</a></li>
+                                        <li><a href="#">Соединительные элементы и уплотнители</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Кирпич и строительные блоки</a></li>
+                                        <li><a href="#">Кирпич керамический</a></li>
+                                        <li><a href="#">Кирпич огнеупорный</a></li>
+                                        <li><a href="#">Кирпич силикатный</a></li>
+                                        <li><a href="#">Строительные блоки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Изоляционные материалы</a></li>
+                                        <li><a href="#">Гидроизоляция</a></li>
+                                        <li><a href="#">Кровельные и фасадные пленки</a></li>
+                                        <li><a href="#">Полиэтиленовые пленки</a></li>
+                                        <li><a href="#">Шумоизоляция</a></li>
+                                    </ul>
+                                </div>
+                                <div class="main_left_menu_dropdown_img"><img src="img/menu_img.jpg" alt="" /></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">канализация</a>
+                            <div class="main_left_menu_dropdown">
+                                <div class="main_left_menu_dropdown_title">Канализация</div>
+                                <div class="main_left_menu_dropdown_list">
+                                    <ul>
+                                        <li><a href="#">Сухие строительные смеси</a></li>
+                                        <li><a href="#">Выравнивающие смеси для пола</a></li>
+                                        <li><a href="#">Гипс</a></li>
+                                        <li><a href="#">Затирки</a></li>
+                                        <li><a href="#">Кладочные смеси</a></li>
+                                        <li><a href="#">Клеи для гипсокартона</a></li>
+                                        <li><a href="#">Клеи для плитки</a></li>
+                                        <li><a href="#">Клеи для утеплителя</a></li>
+                                        <li><a href="#">Цемент, мел, известь</a></li>
+                                        <li><a href="#">Шпаклевки</a></li>
+                                        <li><a href="#">Штукатурки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Теплоизоляция</a></li>
+                                        <li><a href="#">Дюбеля для теплоизоляции</a></li>
+                                        <li><a href="#">Минеральная вата</a></li>
+                                        <li><a href="#">Монтажные элементы для теплоизоляции</a></li>
+                                        <li><a href="#">Напыляемая теплоизоляция</a></li>
+                                        <li><a href="#">Пенополистирол</a></li>
+                                        <li><a href="#">Полиэтилен вспененный</a></li>
+                                        <li><a href="#">Стекловата</a></li>
+                                        <li><a href="#">Техническая изоляция и огнезащита</a></li>
+                                        <li><a href="#">Утеплитель для деревянного домостроения</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Герметики, грунтовки, готовые клеи</a></li>
+                                        <li><a href="#">Герметики</a></li>
+                                        <li><a href="#">Грунтовки</a></li>
+                                        <li><a href="#">Клеи монтажные</a></li>
+                                        <li><a href="#">Клеи секундные и контактные</a></li>
+                                        <li><a href="#">Монтажные пены</a></li>
+                                        <li><a href="#">Пластификаторы</a></li>
+                                        <li><a href="#">Шпаклевки готовые</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Гипсокартон и профили</a></li>
+                                        <li><a href="#">Армирующие сетки и ленты</a></li>
+                                        <li><a href="#">Гипсокартон</a></li>
+                                        <li><a href="#">Профили</a></li>
+                                        <li><a href="#">Соединительные элементы и уплотнители</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Кирпич и строительные блоки</a></li>
+                                        <li><a href="#">Кирпич керамический</a></li>
+                                        <li><a href="#">Кирпич огнеупорный</a></li>
+                                        <li><a href="#">Кирпич силикатный</a></li>
+                                        <li><a href="#">Строительные блоки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Изоляционные материалы</a></li>
+                                        <li><a href="#">Гидроизоляция</a></li>
+                                        <li><a href="#">Кровельные и фасадные пленки</a></li>
+                                        <li><a href="#">Полиэтиленовые пленки</a></li>
+                                        <li><a href="#">Шумоизоляция</a></li>
+                                    </ul>
+                                </div>
+                                <div class="main_left_menu_dropdown_img"><img src="img/menu_img.jpg" alt="" /></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Газоснабжение</a>
+                            <div class="main_left_menu_dropdown">
+                                <div class="main_left_menu_dropdown_title">Газоснабжение</div>
+                                <div class="main_left_menu_dropdown_list">
+                                    <ul>
+                                        <li><a href="#">Сухие строительные смеси</a></li>
+                                        <li><a href="#">Выравнивающие смеси для пола</a></li>
+                                        <li><a href="#">Гипс</a></li>
+                                        <li><a href="#">Затирки</a></li>
+                                        <li><a href="#">Кладочные смеси</a></li>
+                                        <li><a href="#">Клеи для гипсокартона</a></li>
+                                        <li><a href="#">Клеи для плитки</a></li>
+                                        <li><a href="#">Клеи для утеплителя</a></li>
+                                        <li><a href="#">Цемент, мел, известь</a></li>
+                                        <li><a href="#">Шпаклевки</a></li>
+                                        <li><a href="#">Штукатурки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Теплоизоляция</a></li>
+                                        <li><a href="#">Дюбеля для теплоизоляции</a></li>
+                                        <li><a href="#">Минеральная вата</a></li>
+                                        <li><a href="#">Монтажные элементы для теплоизоляции</a></li>
+                                        <li><a href="#">Напыляемая теплоизоляция</a></li>
+                                        <li><a href="#">Пенополистирол</a></li>
+                                        <li><a href="#">Полиэтилен вспененный</a></li>
+                                        <li><a href="#">Стекловата</a></li>
+                                        <li><a href="#">Техническая изоляция и огнезащита</a></li>
+                                        <li><a href="#">Утеплитель для деревянного домостроения</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Герметики, грунтовки, готовые клеи</a></li>
+                                        <li><a href="#">Герметики</a></li>
+                                        <li><a href="#">Грунтовки</a></li>
+                                        <li><a href="#">Клеи монтажные</a></li>
+                                        <li><a href="#">Клеи секундные и контактные</a></li>
+                                        <li><a href="#">Монтажные пены</a></li>
+                                        <li><a href="#">Пластификаторы</a></li>
+                                        <li><a href="#">Шпаклевки готовые</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Гипсокартон и профили</a></li>
+                                        <li><a href="#">Армирующие сетки и ленты</a></li>
+                                        <li><a href="#">Гипсокартон</a></li>
+                                        <li><a href="#">Профили</a></li>
+                                        <li><a href="#">Соединительные элементы и уплотнители</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Кирпич и строительные блоки</a></li>
+                                        <li><a href="#">Кирпич керамический</a></li>
+                                        <li><a href="#">Кирпич огнеупорный</a></li>
+                                        <li><a href="#">Кирпич силикатный</a></li>
+                                        <li><a href="#">Строительные блоки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Изоляционные материалы</a></li>
+                                        <li><a href="#">Гидроизоляция</a></li>
+                                        <li><a href="#">Кровельные и фасадные пленки</a></li>
+                                        <li><a href="#">Полиэтиленовые пленки</a></li>
+                                        <li><a href="#">Шумоизоляция</a></li>
+                                    </ul>
+                                </div>
+                                <div class="main_left_menu_dropdown_img"><img src="img/menu_img.jpg" alt="" /></div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">системы безопасности</a>
+                            <div class="main_left_menu_dropdown">
+                                <div class="main_left_menu_dropdown_title">Системы безопасности</div>
+                                <div class="main_left_menu_dropdown_list">
+                                    <ul>
+                                        <li><a href="#">Сухие строительные смеси</a></li>
+                                        <li><a href="#">Выравнивающие смеси для пола</a></li>
+                                        <li><a href="#">Гипс</a></li>
+                                        <li><a href="#">Затирки</a></li>
+                                        <li><a href="#">Кладочные смеси</a></li>
+                                        <li><a href="#">Клеи для гипсокартона</a></li>
+                                        <li><a href="#">Клеи для плитки</a></li>
+                                        <li><a href="#">Клеи для утеплителя</a></li>
+                                        <li><a href="#">Цемент, мел, известь</a></li>
+                                        <li><a href="#">Шпаклевки</a></li>
+                                        <li><a href="#">Штукатурки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Теплоизоляция</a></li>
+                                        <li><a href="#">Дюбеля для теплоизоляции</a></li>
+                                        <li><a href="#">Минеральная вата</a></li>
+                                        <li><a href="#">Монтажные элементы для теплоизоляции</a></li>
+                                        <li><a href="#">Напыляемая теплоизоляция</a></li>
+                                        <li><a href="#">Пенополистирол</a></li>
+                                        <li><a href="#">Полиэтилен вспененный</a></li>
+                                        <li><a href="#">Стекловата</a></li>
+                                        <li><a href="#">Техническая изоляция и огнезащита</a></li>
+                                        <li><a href="#">Утеплитель для деревянного домостроения</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Герметики, грунтовки, готовые клеи</a></li>
+                                        <li><a href="#">Герметики</a></li>
+                                        <li><a href="#">Грунтовки</a></li>
+                                        <li><a href="#">Клеи монтажные</a></li>
+                                        <li><a href="#">Клеи секундные и контактные</a></li>
+                                        <li><a href="#">Монтажные пены</a></li>
+                                        <li><a href="#">Пластификаторы</a></li>
+                                        <li><a href="#">Шпаклевки готовые</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Гипсокартон и профили</a></li>
+                                        <li><a href="#">Армирующие сетки и ленты</a></li>
+                                        <li><a href="#">Гипсокартон</a></li>
+                                        <li><a href="#">Профили</a></li>
+                                        <li><a href="#">Соединительные элементы и уплотнители</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Кирпич и строительные блоки</a></li>
+                                        <li><a href="#">Кирпич керамический</a></li>
+                                        <li><a href="#">Кирпич огнеупорный</a></li>
+                                        <li><a href="#">Кирпич силикатный</a></li>
+                                        <li><a href="#">Строительные блоки</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Изоляционные материалы</a></li>
+                                        <li><a href="#">Гидроизоляция</a></li>
+                                        <li><a href="#">Кровельные и фасадные пленки</a></li>
+                                        <li><a href="#">Полиэтиленовые пленки</a></li>
+                                        <li><a href="#">Шумоизоляция</a></li>
+                                    </ul>
+                                </div>
+                                <div class="main_left_menu_dropdown_img"><img src="img/menu_img.jpg" alt="" /></div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <!-- /.box-border -->
-
-                <p class="brands-item-title">
-                    <a href="#" class="brands-item-link">
-                        ТЕХНОНИКОЛЬ
-                    </a>
-                </p>
-
             </div>
-            <!-- /.brands-item -->
 
-            <div class="brands-item">
-                
-                <div class="box-border">
-                    <a href="#">
-                        <img src="img/rockwool.png" alt="ROCKWOOL">
-                    </a>
+            <section class="brands">
+
+                <div class="breadcrumbs">
+                    <ol>
+                        <li><a href="#">Главная&nbsp;</a></li>
+                        <li><a href="#">/&nbsp;Все бренды</a></li>
+                    </ol>
                 </div>
-                <!-- /.box-border -->
-    
-                <p class="brands-item-title">
-                    <a href="#" class="brands-item-link">
-                        ROCKWOOL
-                    </a>
-                </p>
-    
-            </div>
-            <!-- /.brands-item -->
 
-            <div class="brands-item">
-                
-                <div class="box-border">
-                    <a href="#">
-                        <img src="img/kronospan.png" alt="KRONOSPAN">
-                    </a>
-                </div>
-                <!-- /.box-border -->
 
-                 <p class="brands-item-title">
-                     <a href="#" class="brands-item-link">
-                            KRONOSPAN
-                     </a>
-                </p>
+                <h2 class="brands-title">
+                    Все бренды
+                </h2>
 
-            </div>
-            <!-- /.brands-item -->
-    
-            <div class="brands-item">
-                
-                <div class="box-border">
-                    <a href="#">
-                        <img src="img/bosch.png" alt="BOSCH">
-                    </a>
-                </div>
-                <!-- /.box-border -->
-            
-                <p class="brands-item-title">
-                    <a href="#" class="brands-item-link">
-                        BOSCH
-                    </a>
-                </p>
-    
-            </div>
-            <!-- /.brands-item -->
 
-            <div class="brands-item">
-                
-                <div class="box-border">
-                    <a href="#">
-                        <img src="img/ursa.png" alt="URSA">
-                    </a>
-                </div>
-                <!-- /.box-border -->
-
-                 <p class="brands-item-title">
-                     <a href="#" class="brands-item-link">
-                            URSA
-                     </a>
-                </p>
-
-            </div>
-            <!-- /.brands-item -->
-        
-            <div class="brands-item">
-                
-                <div class="box-border">
-                    <a href="#">
-                        <img src="img/braun.png" alt="BRAUN">
-                    </a>
-                </div>
-                <!-- /.box-border -->
-            
-                <p class="brands-item-title">
-                    <a href="#" class="brands-item-link">
-                            BRAUN
-                    </a>
-                </p>
-    
-            </div>
-            <!-- /.brands-item -->
-
-            <div class="brands-item">
-            
-                    <div class="box-border">
-                        <a href="#">
-                            <img src="img/makita.png" alt="MAKITA">
-                        </a>
-                    </div>
-                    <!-- /.box-border -->
-    
-                     <p class="brands-item-title">
-                         <a href="#" class="brands-item-link">
-                                MAKITA
-                         </a>
-                    </p>
-    
-                </div>
-                <!-- /.brands-item -->
-            
-                <div class="brands-item">
-                    
-                    <div class="box-border">
-                        <a href="#">
-                            <img src="img/moment.png" alt="MOMENT">
-                        </a>
-                    </div>
-                    <!-- /.box-border -->
-                
-                    <p class="brands-item-title">
-                        <a href="#" class="brands-item-link">
-                                MOMENT
-                        </a>
-                    </p>
-        
-                </div>
-                <!-- /.brands-item -->
+                <div class="brands-container">
 
                     <div class="brands-item">
-                
+
                         <div class="box-border">
                             <a href="#">
-                                <img src="img/interskol.png" alt="INTERSKOL">
+                                <img src="img/techonikol.png" alt="ТЕХНОНИКОЛЬ">
                             </a>
                         </div>
                         <!-- /.box-border -->
-        
-                         <p class="brands-item-title">
-                             <a href="#" class="brands-item-link">
-                                    INTERSKOL
-                             </a>
+
+                        <p class="brands-item-title">
+                            <a href="#" class="brands-item-link">
+                                ТЕХНОНИКОЛЬ
+                            </a>
                         </p>
-        
+
                     </div>
                     <!-- /.brands-item -->
-                
+
                     <div class="brands-item">
-                        
+
+                        <div class="box-border">
+                            <a href="#">
+                                <img src="img/rockwool.png" alt="ROCKWOOL">
+                            </a>
+                        </div>
+                        <!-- /.box-border -->
+
+                        <p class="brands-item-title">
+                            <a href="#" class="brands-item-link">
+                                ROCKWOOL
+                            </a>
+                        </p>
+
+                    </div>
+                    <!-- /.brands-item -->
+
+                    <div class="brands-item">
+
                         <div class="box-border">
                             <a href="#">
                                 <img src="img/kronospan.png" alt="KRONOSPAN">
                             </a>
                         </div>
                         <!-- /.box-border -->
-                    
+
                         <p class="brands-item-title">
                             <a href="#" class="brands-item-link">
-                                    KRONOSPAN
+                                KRONOSPAN
                             </a>
                         </p>
-            
+
                     </div>
                     <!-- /.brands-item -->
 
-                        <div class="brands-item">
-                
-                            <div class="box-border">
-                                <a href="#">
-                                    <img src="img/bosch.png" alt="BOSCH">
-                                </a>
-                            </div>
-                            <!-- /.box-border -->
-            
-                             <p class="brands-item-title">
-                                 <a href="#" class="brands-item-link">
-                                        BOSCH
-                                 </a>
-                            </p>
-            
-                        </div>
-                        <!-- /.brands-item -->
-                    
-                        <div class="brands-item">
-                            
-                            <div class="box-border">
-                                <a href="#">
-                                    <img src="img/karcher.png" alt="KARCHER">
-                                </a>
-                            </div>
-                            <!-- /.box-border -->
-                        
-                            <p class="brands-item-title">
-                                <a href="#" class="brands-item-link">
-                                        KARCHER
-                                </a>
-                            </p>
-                
-                        </div>
-                        <!-- /.brands-item -->
+                    <div class="brands-item">
 
-                        <div class="brands-item">
-            
-                                <div class="box-border">
-                                    <a href="#">
-                                        <img src="img/braun.png" alt="BRAUN">
-                                    </a>
-                                </div>
-                                <!-- /.box-border -->
-                
-                                 <p class="brands-item-title">
-                                     <a href="#" class="brands-item-link">
-                                            BRAUN
-                                     </a>
-                                </p>
-                
-                            </div>
-                            <!-- /.brands-item -->
-                    
-                        <div class="brands-item">
-                            
-                            <div class="box-border">
-                                <a href="#">
-                                    <img src="img/makita.png" alt="MAKITA">
-                                </a>
-                            </div>
-                            <!-- /.box-border -->
-                        
-                            <p class="brands-item-title">
-                                <a href="#" class="brands-item-link">
-                                    MAKITA
-                                </a>
-                            </p>
-                
+                        <div class="box-border">
+                            <a href="#">
+                                <img src="img/bosch.png" alt="BOSCH">
+                            </a>
                         </div>
-                        <!-- /.brands-item -->
+                        <!-- /.box-border -->
 
-                        <div class="brands-item">
-        
-                            <div class="box-border">
-                                <a href="#">
-                                    <img src="img/volma.png" alt="VOLMA">
-                                </a>
-                            </div>
-                            <!-- /.box-border -->
-            
-                             <p class="brands-item-title">
-                                 <a href="#" class="brands-item-link">
-                                     VOLMA
-                                 </a>
-                            </p>
-            
+                        <p class="brands-item-title">
+                            <a href="#" class="brands-item-link">
+                                BOSCH
+                            </a>
+                        </p>
+
+                    </div>
+                    <!-- /.brands-item -->
+
+                    <div class="brands-item">
+
+                        <div class="box-border">
+                            <a href="#">
+                                <img src="img/ursa.png" alt="URSA">
+                            </a>
                         </div>
-                        <!-- /.brands-item -->
-                                   
+                        <!-- /.box-border -->
+
+                        <p class="brands-item-title">
+                            <a href="#" class="brands-item-link">
+                                URSA
+                            </a>
+                        </p>
+
+                    </div>
+                    <!-- /.brands-item -->
+
+                    <div class="brands-item">
+
+                        <div class="box-border">
+                            <a href="#">
+                                <img src="img/braun.png" alt="BRAUN">
+                            </a>
+                        </div>
+                        <!-- /.box-border -->
+
+                        <p class="brands-item-title">
+                            <a href="#" class="brands-item-link">
+                                BRAUN
+                            </a>
+                        </p>
+
+                    </div>
+                    <!-- /.brands-item -->
+
+                    <div class="brands-item">
+
+                        <div class="box-border">
+                            <a href="#">
+                                <img src="img/makita.png" alt="MAKITA">
+                            </a>
+                        </div>
+                        <!-- /.box-border -->
+
+                        <p class="brands-item-title">
+                            <a href="#" class="brands-item-link">
+                                MAKITA
+                            </a>
+                        </p>
+
+                    </div>
+                    <!-- /.brands-item -->
+
+                    <div class="brands-item">
+
+                        <div class="box-border">
+                            <a href="#">
+                                <img src="img/moment.png" alt="MOMENT">
+                            </a>
+                        </div>
+                        <!-- /.box-border -->
+
+                        <p class="brands-item-title">
+                            <a href="#" class="brands-item-link">
+                                MOMENT
+                            </a>
+                        </p>
+
+                    </div>
+                    <!-- /.brands-item -->
+
+                    <div class="brands-item">
+
+                        <div class="box-border">
+                            <a href="#">
+                                <img src="img/interskol.png" alt="INTERSKOL">
+                            </a>
+                        </div>
+                        <!-- /.box-border -->
+
+                        <p class="brands-item-title">
+                            <a href="#" class="brands-item-link">
+                                INTERSKOL
+                            </a>
+                        </p>
+
+                    </div>
+                    <!-- /.brands-item -->
+
+                    <div class="brands-item">
+
+                        <div class="box-border">
+                            <a href="#">
+                                <img src="img/kronospan.png" alt="KRONOSPAN">
+                            </a>
+                        </div>
+                        <!-- /.box-border -->
+
+                        <p class="brands-item-title">
+                            <a href="#" class="brands-item-link">
+                                KRONOSPAN
+                            </a>
+                        </p>
+
+                    </div>
+                    <!-- /.brands-item -->
+
+                    <div class="brands-item">
+
+                        <div class="box-border">
+                            <a href="#">
+                                <img src="img/bosch.png" alt="BOSCH">
+                            </a>
+                        </div>
+                        <!-- /.box-border -->
+
+                        <p class="brands-item-title">
+                            <a href="#" class="brands-item-link">
+                                BOSCH
+                            </a>
+                        </p>
+
+                    </div>
+                    <!-- /.brands-item -->
+
+                    <div class="brands-item">
+
+                        <div class="box-border">
+                            <a href="#">
+                                <img src="img/karcher.png" alt="KARCHER">
+                            </a>
+                        </div>
+                        <!-- /.box-border -->
+
+                        <p class="brands-item-title">
+                            <a href="#" class="brands-item-link">
+                                KARCHER
+                            </a>
+                        </p>
+
+                    </div>
+                    <!-- /.brands-item -->
+
+                    <div class="brands-item">
+
+                        <div class="box-border">
+                            <a href="#">
+                                <img src="img/braun.png" alt="BRAUN">
+                            </a>
+                        </div>
+                        <!-- /.box-border -->
+
+                        <p class="brands-item-title">
+                            <a href="#" class="brands-item-link">
+                                BRAUN
+                            </a>
+                        </p>
+
+                    </div>
+                    <!-- /.brands-item -->
+
+                    <div class="brands-item">
+
+                        <div class="box-border">
+                            <a href="#">
+                                <img src="img/makita.png" alt="MAKITA">
+                            </a>
+                        </div>
+                        <!-- /.box-border -->
+
+                        <p class="brands-item-title">
+                            <a href="#" class="brands-item-link">
+                                MAKITA
+                            </a>
+                        </p>
+
+                    </div>
+                    <!-- /.brands-item -->
+
+                    <div class="brands-item">
+
+                        <div class="box-border">
+                            <a href="#">
+                                <img src="img/volma.png" alt="VOLMA">
+                            </a>
+                        </div>
+                        <!-- /.box-border -->
+
+                        <p class="brands-item-title">
+                            <a href="#" class="brands-item-link">
+                                VOLMA
+                            </a>
+                        </p>
+
+                    </div>
+                    <!-- /.brands-item -->
+
+                </div>
+                <!-- /.brands-container -->
+
+            </section>
+            <!-- /.brands -->
+
+
         </div>
-        <!-- /.brands-container -->
 
-    </section>
-    <!-- /.brands -->
-    
+
+
+        <div class="footer">
+            <div class="f_left">
+                <div class="f_logo">
+                    <a href="/">
+                        <img src="img/f_logo.png" alt="" />
+                        <div class="f_logo_desc">
+                            <span class="f_logo_desc_orange">RimMarket.ru</span>
+                            <span class="f_logo_desc_text">все для строительства</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="f_contacts">
+                    <div class="f_contacts_item">
+                        <div class="f_contacts_item_ico"><img src="img/f_ico_phone.png" alt="" /></div>
+                        <div class="f_contacts_item_text_wrap">
+                            <span class="f_contacts_item_text">8 800 333-93-83</span>
+                            <span class="f_contacts_item_desc">единый номер</span>
+                        </div>
+                    </div>
+                    <div class="f_contacts_item">
+                        <div class="f_contacts_item_ico"><img src="img/f_ico_phone.png" alt="" /></div>
+                        <div class="f_contacts_item_text_wrap">
+                            <span class="f_contacts_item_text">8 800 123-45-67</span>
+                            <span class="f_contacts_item_desc">отдел продаж</span>
+                        </div>
+                    </div>
+                    <div class="f_contacts_item">
+                        <div class="f_contacts_item_ico"><img src="img/f_ico_email.png" alt="" /></div>
+                        <div class="f_contacts_item_text_wrap">
+                            <span class="f_contacts_item_text">mail@rimmarket.ru</span>
+                            <span class="f_contacts_item_desc">электронная почта </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f_menu">
+                <div class="f_menu_btn">Основные разделы<i></i></div>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Строительные материалы</a></li>
+                    <li><a href="#">Компоненты умного дома</a></li>
+                    <li><a href="#">Монтаж и сервис</a></li>
+                    <li><a href="#">Энергосбережение</a></li>
+                    <li><a href="#">Отопление</a></li>
+                    <li><a href="#">Кондиционирование</a></li>
+                    <li><a href="#">Инструменты</a></li>
+                </ul>
+            </div>
+            <div class="f_menu f_menu_big">
+                <div class="f_menu_btn">Поддержка и сервис<i></i></div>
+                <ul>
+                    <li><a href="#">Поддержка и сервис</a></li>
+                    <li><a href="#">Оплата</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Магазины</a></li>
+                </ul>
+            </div>
+            <div class="f_social">
+                <div class="f_social_item"><a href="#"><i><img src="img/soc01.png" alt="" /></i><span>@rimgroup_ru</span></a></div>
+                <div class="f_social_item"><a href="#"><i><img src="img/soc02.png" alt="" /></i><span>@rimgroup_ru</span></a></div>
+                <div class="f_social_item"><a href="#"><i><img src="img/soc03.png" alt="" /></i><span>@rimgroup_ru</span></a></div>
+                <div class="f_social_item"><a href="#"><i><img src="img/soc04.png" alt="" /></i><span>@rimgroup_ru</span></a></div>
+                <div class="f_social_item"><a href="#"><i><img src="img/soc05.png" alt="" /></i><span>@rimgroup_ru</span></a></div>
+            </div>
+            <div class="f_copyright">© 2019 Рим Маркет</div>
+        </div>
+
+    </div>
+    <!-- /.wrapper -->
+
+    <div class="bg_menu"></div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.inputmask.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/plugins-scroll.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru-RU"></script>
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>
